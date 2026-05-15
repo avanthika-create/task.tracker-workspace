@@ -1,0 +1,42 @@
+body {
+    width: 1920x;
+    height: 1080px;
+
+    background-image: url(assets/tasktimerbg.png);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+/* input */ 
+
+.input-area { 
+    position: absolute;
+    left: 60px;
+    right: 902px;
+}
+
+/* list for tasks */ 
+
+
+/* timer */
+
+.time-text {
+    position: absolute;
+    right: 1270px; 
+    left: 260px; 
+}
+
+#timeDisplay { 
+    font-size: 48px; 
+    margin: 20px 0;
+}
+
+/* buttons */ 
+
+button { 
+    padding: 6px 10px; 
+    border-radius: 8px; 
+    border: none;
+}
+

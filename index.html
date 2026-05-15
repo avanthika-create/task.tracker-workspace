@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">      
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Task Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+
+<!-- input -->
+ <div class="input-area"> 
+    <input id="taskName" placeholder="Task">
+    <input id="taskTime" type="number" min="0" max="59" placeholder="min">
+    <button id="addBtn">+</button>
+</div>
+
+<!--timer-->
+<div class="timer">
+    <h2 id="currentTask">No Task</h2>
+    <div id="timeDisplay">00:00</div>
+    <p id="nextTask">Next: -</p>
+
+<div class="controls">
+    <button id="startBtn">Start</button>
+    <button id="pauseBtn">Pause</button>
+    <button id="resetBtn">Reset</button>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+
